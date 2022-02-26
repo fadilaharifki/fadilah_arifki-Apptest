@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 
 import ModalComponent from "../../components/modal";
 
-export default function CreateEdit({ isOpen, setIsOpen, title, create = false, update = false, data }) {
+export default function CreateEdit({ isOpen, setIsOpen, title, create = false, update = false, data, setFlag }) {
     const schema = yup.object({
         firstName: yup.string().required("first name can't be empty"),
         lastName: yup.string().required("last name can't be empty"),
@@ -31,6 +31,7 @@ export default function CreateEdit({ isOpen, setIsOpen, title, create = false, u
                     showConfirmButton: false,
                     timer: 1500
                 })
+                setFlag(true)
                 setIsOpen(false)
             } else if (!create && update) {
                 const urlEdit = `https://simple-contact-crud.herokuapp.com/contact/${data.id}`
@@ -43,6 +44,7 @@ export default function CreateEdit({ isOpen, setIsOpen, title, create = false, u
                     showConfirmButton: false,
                     timer: 1500
                 })
+                setFlag(true)
                 setIsOpen(false)
             }
         } catch (error) {
