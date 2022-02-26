@@ -16,7 +16,7 @@ export default function Contacts() {
 
     useEffect(() => {
         dispatch(getContact())
-    }, [contacts])
+    }, [])
 
     const remove = async (val) => {
         const url = `https://simple-contact-crud.herokuapp.com/contact/${val.id}`
@@ -66,6 +66,9 @@ export default function Contacts() {
 
     return (
         <div className="w-screen">
+            <div className="flex justify-center m-5">
+                <div className="uppercase text-3xl font-bold text-orange-600">Contact</div>
+            </div>
             <div className="flex justify-end m-5">
                 <button onClick={() => setIsOpen(true)} className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
                     Create
