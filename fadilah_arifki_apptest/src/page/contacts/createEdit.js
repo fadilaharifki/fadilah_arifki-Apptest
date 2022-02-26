@@ -43,6 +43,7 @@ export default function CreateEdit({ isOpen, setIsOpen, title, create = false, u
                     showConfirmButton: false,
                     timer: 1500
                 })
+                setIsOpen(false)
             }
         } catch (error) {
             Swal.fire({
