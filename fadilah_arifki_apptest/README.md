@@ -2,6 +2,12 @@
 
 This project is carried out using the JavaScript programming language. the framework for this project uses React native, then to beautify my page I use tailwind css, to do CRUD I combine it with a Form Hook and validation.
 
+## Available Scripts
+
+repository: [fadilah_arifki.Apptest.git](https://github.com/fadilaharifki/fadilah_arifki-Apptest/tree/main/fadilah_arifki_apptest).
+
+deploy with firebase : [fadilah-arifki-apptest.web.app](https://fadilah-arifki-apptest.web.app/)
+
 
 # Getting Started with Create React App
 
