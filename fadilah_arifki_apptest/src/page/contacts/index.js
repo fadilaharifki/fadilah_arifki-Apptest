@@ -16,15 +16,10 @@ export default function Contacts() {
 
     useEffect(() => {
         dispatch(getContact())
-    }, [])
+    }, [contacts])
 
     const remove = async (val) => {
-        var url = `https://simple-contact-crud.herokuapp.com/contact/${val.id}`
-        const headers = {
-            headers: {
-                'Accept': 'application/json'
-            }
-        }
+        const url = `https://simple-contact-crud.herokuapp.com/contact/${val.id}`
         try {
 
             Swal.fire({
@@ -38,7 +33,7 @@ export default function Contacts() {
             }).then(async (result) => {
                 try {
                     if (result.isConfirmed) {
-                        await axios.delete(url, headers)
+                        await axios.delete(url)
 
                         Swal.fire(
                             'Deleted!',
