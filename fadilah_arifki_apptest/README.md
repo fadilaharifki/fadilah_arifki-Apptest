@@ -4,7 +4,7 @@ This project is carried out using the JavaScript programming language. the frame
 
 ## Source and Deploy
 
-Repository wit github : [fadilah_arifki.Apptest.git](https://github.com/fadilaharifki/fadilah_arifki-Apptest/tree/main/fadilah_arifki_apptest).
+Repository wit github : [fadilah_arifki.Apptest.git](https://github.com/fadilaharifki/fadilah_arifki-Apptest).
 
 Deploy with firebase : [fadilah-arifki-apptest.web.app](https://fadilah-arifki-apptest.web.app/)
 
