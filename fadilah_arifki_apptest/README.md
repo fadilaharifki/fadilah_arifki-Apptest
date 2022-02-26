@@ -4,9 +4,9 @@ This project is carried out using the JavaScript programming language. the frame
 
 ## Available Scripts
 
-repository: [fadilah_arifki.Apptest.git](https://github.com/fadilaharifki/fadilah_arifki-Apptest/tree/main/fadilah_arifki_apptest).
+Repository wit github : [fadilah_arifki.Apptest.git](https://github.com/fadilaharifki/fadilah_arifki-Apptest/tree/main/fadilah_arifki_apptest).
 
-deploy with firebase : [fadilah-arifki-apptest.web.app](https://fadilah-arifki-apptest.web.app/)
+Deploy with firebase : [fadilah-arifki-apptest.web.app](https://fadilah-arifki-apptest.web.app/)
 
 
 # Getting Started with Create React App
