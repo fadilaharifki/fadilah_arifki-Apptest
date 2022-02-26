@@ -1,3 +1,8 @@
+# Technical Test
+
+This project is carried out using the JavaScript programming language. the framework for this project uses React native, then to beautify my page I use tailwind css, to do CRUD I combine it with a Form Hook and validation.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
