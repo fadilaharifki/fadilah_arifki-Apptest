@@ -16,7 +16,7 @@ export default function Contacts() {
 
     useEffect(() => {
         dispatch(getContact())
-    }, [])
+    }, [contacts])
 
     const remove = async (val) => {
         const url = `https://simple-contact-crud.herokuapp.com/contact/${val.id}`
