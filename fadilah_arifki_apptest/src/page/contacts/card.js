@@ -1,7 +1,4 @@
-import React, { useEffect, useState } from "react"
-import { useDispatch, useSelector } from 'react-redux';
-import { getContact } from "../../store/actions/contacts";
-import PropagateLoader from "react-spinners/PropagateLoader";
+import React, { useState } from "react"
 import CreateEdit from "./createEdit";
 import Swal from "sweetalert2";
 import axios from "axios";

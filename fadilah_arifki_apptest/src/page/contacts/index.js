@@ -3,14 +3,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getContact } from "../../store/actions/contacts";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import CreateEdit from "./createEdit";
-import Swal from "sweetalert2";
-import axios from "axios";
 import Card from "./card";
 
 export default function Contacts() {
     const dispatch = useDispatch()
     const [isOpen, setIsOpen] = useState(false)
-    const [dataEdit, setDataEdit] = useState()
     const [flag, setFlag] = useState(false)
 
     const { contacts } = useSelector(state => state)
